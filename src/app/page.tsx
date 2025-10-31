@@ -1,5 +1,4 @@
 import { HeroSection } from "@/components/layout/HeroSection";
-import { Navbar } from "@/components/layout/Navbar";
 import { AboutSection } from "@/components/layout/AboutSection";
 import { ServicesSection } from '@/components/layout/ServicesSection';
 import {
@@ -9,7 +8,6 @@ import {
 } from '@/components/icons/ServiceIcons';
 import { ContactFormSection } from "@/components/layout/ContactFormSection";
 import { FAQSection } from "@/components/layout/FAQSection";
-import { Footer } from "@/components/layout/Footer";
 
 export default function Home() {
 
@@ -77,7 +75,7 @@ export default function Home() {
 
   return (
     <main>
-      <Navbar />
+      
       <HeroSection
         tagline="We blend"
         title="Elevating Digital Landscape with Creative Web Solutions, Design, Code & Innovation"
@@ -102,7 +100,6 @@ export default function Home() {
       />
       <ContactFormSection/>
       <FAQSection title="Frequently Asked Questions" faqs={faqs} />
-      <Footer/>
     </main>
   );
 }
