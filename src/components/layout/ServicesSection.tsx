@@ -17,6 +17,8 @@ interface ServicesSectionProps {
   sectionTitle?: string;
   sectionDescription?: string;
   services: Service[];
+  ctaText?: string;
+  ctaLink?: string;
 }
 
 export const ServicesSection: React.FC<ServicesSectionProps> = ({
